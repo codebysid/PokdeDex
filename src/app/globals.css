@@ -25,3 +25,44 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.defaultCardStyle {
+  background-color: black;
+}
+.grass {
+  background-color: rgba(81, 207, 177, 0.8);
+}
+.fire {
+  background-color: rgba(249, 109, 112, 0.8);
+}
+.water {
+  background-color: rgba(100, 159, 180, 0.8);
+}
+.poison {
+  background-color: rgba(157, 78, 221, 0.8);
+}
+.electric,
+.bug {
+  background-color: rgba(253, 197, 0, 0.7);
+}
+.ground {
+  background-color: rgba(96, 108, 56, 0.8);
+}
+.fairy {
+  background-color: rgba(255, 200, 221, 1);
+}
+.normal {
+  background-color: rgba(173, 181, 189, 0.8);
+}
+
+.type {
+  @apply rounded-xl px-2 backdrop-blur-lg;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.input {
+  @apply bg-lightBlack rounded-2xl p-2 outline-none text-white;
+}
+
+.dropDownArrow {
+  @apply appearance-none cursor-pointer lg:w-52;
+}
